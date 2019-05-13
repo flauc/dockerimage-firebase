@@ -5,4 +5,4 @@ RUN echo "deb http://ftp.us.debian.org/debian sid main" >> /etc/apt/sources.list
 		git \
 	&& apt-get clean
 
-RUN npm i -g firebase-tools@6.9.1
+RUN npm i -g firebase-tools@6.9.2
