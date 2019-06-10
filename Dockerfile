@@ -1,4 +1,4 @@
-FROM node:12.3.1-stretch
+FROM node:10.15.3-stretch
 
 RUN echo "deb http://ftp.us.debian.org/debian sid main" >> /etc/apt/sources.list \
 	&& apt-get update && apt-get install -y \
