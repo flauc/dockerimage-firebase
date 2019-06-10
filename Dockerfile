@@ -5,4 +5,4 @@ RUN echo "deb http://ftp.us.debian.org/debian sid main" >> /etc/apt/sources.list
 		git \
 	&& apt-get clean
 
-RUN yarn global add firebase-tools@6.10.0
+RUN yarn global add firebase-tools@6.11.0
